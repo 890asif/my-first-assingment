@@ -3,7 +3,7 @@
     padding: auto;
     box-sizing: border-box;
 }
-
+/* navbar */
 header{
     background-color: #FFFFFF;
 }
@@ -41,6 +41,7 @@ ul a{
     max-width: 1200px;
     margin: auto;
 }
+/* hero section */
 .hero-banner{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg);
     height: 90vh;
@@ -73,6 +74,8 @@ ul a{
 .banner-section .btn{
     margin-top: 120px;
 }
+
+/* speaker section */
 .speakers{
     max-width: 1200px;
     margin: auto;
@@ -136,6 +139,7 @@ ul a{
     color: black;
 }
 
+/* pricing section */
 .price-section{
     max-width: 1200px;
     margin: 80px auto;
@@ -262,6 +266,50 @@ ul a{
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
 
+/* sponsore section */
+.sponsors{
+    padding: 80px 8%;
+    background-color: #e5e5e5;
+    text-align: center;
+}
+.title h2{
+    font-size: 50px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+.title p{
+    color: #666;
+    max-width: 650px;
+    margin: 0 auto 60px;
+
+}
+
+.sponsor-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 30px;
+}
+
+.sponsor-card{
+    background-color:#E5E7EB ;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsor-card img{
+    max-width: 120px;
+    width: 100%; 
+}
+.sponsor-card:hover{
+    transform:translateY(-8px)
+}
+.sponsor-card:hover img{
+    filter:grayscale(0%)
+}
+
+/* footer section */
 footer{
     background-color: #0D1B2A;
 }
