@@ -35,6 +35,7 @@ ul a{
 }
 .btn:hover{
     cursor: pointer;
+    background-color: #5c6e9f;
 }
 .conteiner{
     max-width: 1200px;
@@ -98,6 +99,11 @@ ul a{
     overflow: hidden;
 }
 
+.speaker-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
 .speaker-card img{
     width: 100%;
     height: 260px;
@@ -128,4 +134,130 @@ ul a{
 }
 .speakers h2{
     color: black;
+}
+
+.price-section{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.price-section h2{
+    text-align: center;
+    font-size: 48px;
+    color: #111827;
+}
+
+.price-section > p{
+    text-align: center;
+    color: #6B7280;
+    margin: 10px 0 50px;
+}
+
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.card{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 24px;
+    background: white;
+    width: 320px;
+}
+
+
+.card.active{
+    background: #0F172A;
+}
+
+.card.active hr{
+    border-color: rgba(255,255,255,.2);
+}
+
+.card.active button{
+    background: #2563EB;
+    color: white;
+    border: none;
+}
+
+
+.card h4{
+    color: #6B7280;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.card h2{
+    text-align: left;
+    font-size: 50px;
+    margin: 0;
+}
+
+.card p{
+    color: #6B7280;
+    margin: 8px 0 20px;
+}
+
+.card hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 25px;
+}
+
+
+.card ul{
+    display: block;
+    list-style: disc;
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+
+.card li{
+    margin-bottom: 15px;
+    color: #4B5563;
+    font-size: 15px;
+}
+
+.card li::marker{
+    color: #2563EB;
+}
+
+
+.card button{
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #2563EB;
+    background: white;
+    color: #2563EB;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card button:hover{
+    background: #2563EB;
+    color: white;
+    
+}
+.card .active{
+    background-color: #0D1B2A;
+}
+
+.card.active h4{
+    color: #1D4ED8;
+}
+.card.active h2,
+.card.active h4,
+.card.active p,
+.card.active li{
+    color: white;
+}
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
