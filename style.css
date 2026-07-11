@@ -1,6 +1,6 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 /* navbar */
@@ -255,8 +255,8 @@ ul a{
 .card.active h4{
     color: #1D4ED8;
 }
+
 .card.active h2,
-.card.active h4,
 .card.active p,
 .card.active li{
     color: white;
