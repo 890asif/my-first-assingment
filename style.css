@@ -149,7 +149,7 @@ ul a{
 .price-section h2{
     text-align: center;
     font-size: 48px;
-    color: #111827;
+    color: black;
 }
 
 .price-section > p{
@@ -268,13 +268,15 @@ ul a{
 
 /* sponsore section */
 .sponsors{
-    padding: 80px 8%;
-    background-color: #e5e5e5;
+    padding: 30px ;
+    background-color: #E5e5e5;
     text-align: center;
+    max-width: 1200px;
+    border-radius: 10px;
 }
 .title h2{
     font-size: 50px;
-    color: #111827;
+    color: black;
     margin-bottom: 15px;
 }
 .title p{
@@ -307,6 +309,14 @@ ul a{
 }
 .sponsor-card:hover img{
     filter:grayscale(0%)
+}
+
+/* fqa section */
+
+.faq{
+    padding: 90px 8%;
+    background-color: #E5E5E5;
+    margin-top: 50px;
 }
 
 /* footer section */
