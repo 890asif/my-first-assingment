@@ -285,20 +285,21 @@ ul a:hover{
 /* sponsore section */
 .sponsors{
     padding: 30px ;
-    background-color: azure;
+    background-color: #0D1B2A;
     text-align: center;
     max-width: 1200px;
     border-radius: 10px;
     margin-top: 80px;
     margin: auto;
+    margin-bottom: 80px;
 }
 .title h2{
     font-size: 50px;
-    color: black;
+    color: white;
     margin-bottom: 15px;
 }
 .title p{
-    color: #362A26;
+    color: white;
     max-width: 650px;
     margin: 0 auto 60px;
 
@@ -333,8 +334,7 @@ ul a:hover{
 
 .faq{
     padding: 50px 0;
-    background-color: #464e5a;
-    margin-top: 80px;
+    background-color: #6B7280 ;
 }
 .section-title{
     text-align: center;
@@ -374,6 +374,85 @@ ul a:hover{
 .faq-item p{
     color: #666;
 }
+
+/* location section */
+
+.location{
+    background-color:#464e5a;
+}
+
+.location-title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.location-title h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+
+.location-title p{
+    max-width: 650px;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.location-content{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.location-card{
+    background-color: azure;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.location-card:hover{
+    transform: translateY(-8px);
+}
+
+.location-card i{
+    font-size: 20px;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+
+.location-card h3{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.location-card p{
+    line-height: 1.6;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.map iframe{
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
 /* footer section */
 footer{
     background-color: #0D1B2A;
@@ -431,7 +510,7 @@ footer hr{
 }
 .footer-text{
     max-width: 1200px;
-    margin: 20px auto o;
+    margin: 20px auto 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
