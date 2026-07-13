@@ -51,7 +51,9 @@ ul a:hover{
 }
 .btn:hover{
     cursor: pointer;
-    background-color: #5c6e9f;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 .conteiner{
     max-width: 1200px;
@@ -68,6 +70,7 @@ ul a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 30px;
 }
 .banner-section{
     display: flex;
@@ -88,7 +91,7 @@ ul a:hover{
     font-size: 22px;
 }
 .banner-section .btn{
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 /* speaker section */
@@ -158,8 +161,9 @@ ul a:hover{
 /* pricing section */
 .price-section{
     max-width: 1200px;
-    margin: 80px auto;
+    margin: 30px auto;
     padding: 20px;
+    margin-bottom: 80px;
 }
 
 .price-section h2{
@@ -292,6 +296,9 @@ ul a:hover{
     margin-top: 80px;
     margin: auto;
     margin-bottom: 80px;
+}
+.sponsors{
+    padding-top: 30px;
 }
 .title h2{
     font-size: 50px;
